@@ -1,92 +1,68 @@
 # Lyft
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+* **Curso:** _Cirando um site interativo com javascript_
+* **Unidade:** _Layout da web com HTML & CSS_
 
 ***
 
-Para completar este reto, hemos creado este repositorio boilerplate (plantilla
-inicial) con todos los recursos que necesitas. Esto incluye imágenes y
-estructura de carpetas y archivos donde colocarás tu código.
+Para completar esse desafio, vocês irão utilizar esse repositório como base, pois ele contém todos os recursos necessários.
 
-## Flujo de trabajo
+## Fluxo de trabalho
 
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74)
-   de este repositorio.
+1. Vocês terão que criar um fork deste repositório.
 
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar
-   es `git clone` y su estructura normalmente se ve así:
-
-   ```bash
-   git clone https://github.com/<nombre-de-usuario>/lyft.git
-   ```
+2. Depois vocês devem **clonar** o seu fork.
+ ```bash
+ git clone https://github.com/<nome-do-seu-usuario>/lyft.git
+ ```
 
 ## Objetivo
 
-El reto consiste en replicar el sitio de **Lyft**, este será el resultado
-a lograr:
+O objetivo é replicar o site do **Lyft** e esse deverá ser o resultado:
 
 ![Lyft Website](docs/fullpage.png)
 
-## Consideraciones
+## Considerações
 
-* Encontrarás un archivo base `index.html` en el cual deberás escribir la
-  estructura de tu proyecto y enlazar tus archivos de estilos (CSS).
+* Você encontrará um arquivo `index.html` onde você deverá escrever o seu HTML
+  e linkar o seu arquivo de estilo (CSS).
 
-* En la carpeta `css` tendrás un archivo base `main.css` donde agregarás los
-  estilos necesarios para tu proyecto:
+* Na pasta `css` terá um arquivo `main.css` onde você irá colocar todos os
+  estilos necessários para o seu projeto.
 
-* Dentro de la carpeta `assets` se encuentra la carpeta `images` donde
-  encontrarás todas las imágenes necesarias para completar tu proyecto.
+* Dentro da pasta `assets` você irá encontrar a pasta `images`, onde estarão
+  todas as imagens necessárias para completar esse projeto.
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+* Você deverá atualizar o arquivo `README.md` explicando o conteúdo do
+  respositório.
 
-* Esta web utiliza la tipografía `Montserrat`.
+* Está página utiliza a tipografia `Montserrat`.
 
-* La paleta de colores puedes obtenerla inspeccionado el sitio original, pero
-  para ganar tiempo, puedes usar los siguientes:
+* A paleta de cores do site original é:
+  - Botões e hover: `#FF00BF`
+  - Fundo do `footer`: `#333447`
+  - Título do formulário: `#352384`
+  - Texto do formulário: `#728099`
+  - Gradiente roxo: `linear-gradient(#76278F, #2B1E66);`
 
-  - Botones, hover: `#FF00BF`
-  - Fondo de `footer`: `#333447`
-  - Título del formulario: `#352384`
-  - Texto del formulario: `#728099`
-  - Gradiente morado: `linear-gradient(#76278F, #2B1E66);`
-
-* Para el footer, deberás tomar en cuenta que tiene un hover y se ve como en la
-  siguiente imagen:
+* Para o footer, você deverá lembrar de colocar um `hover` no texto, da seguinte forma:
 
   ![Lyft - Footer](docs/footer.gif)
 
-  Además, los íconos deberás obtenerlo de `Icomoon`.
 
-* Para este reto, encontrarás ciertas cosas que probablemente aun no has visto
-  en clase (formularios, videos de Youtube). No te preocupes, estamos seguros
-  que los afrontarás con éxito, de igual forma aquí unos tips:
+* Para os ícones, utilize o `Iconmoon`.
 
-  - Estos son los videos de Youtube:
-    * https://www.youtube.com/watch?v=fLSmUWOYpKw
-    * https://www.youtube.com/watch?v=V7j8Aqxmbs8
-    * https://www.youtube.com/watch?v=xj2VWLV0xCU
-  - Para agregar los videos, averigua sobre la etiqueta `iframe`.
-  - Para el formulario, revisa las etiquetas como `form` e `input`.
+* Neste desafio você encontrará coisas que não foram vistas em aula (formulários, vídeos do Youtube). Não se preocupe, pois temos certeza que irão conseguir. (dica1: usar o `iframe` do youtube; dica2: para o formulário leia sobre `form` e `input`)
 
-* Puedes ver el [sitio original](https://www.lyft.com/), sin embargo, su diseño
-  ya ha cambiado en ciertas partes, así que tu fuente de verdad es la imagen que
-  muestra el objetivo de este reto.
 
-  > Nota: El sitio original tiene ciertos efectos y funcionalidades que
-están fuera del alcance de este reto. Enfócate en obtener la maquetación
-lo más parecido posible, usando lo aprendido en clase ;)
+* O site atual do Lyft não tem mais nada a ver com o que estamos pedindo, então não usem o site original e sem o da imagem que que mostramos em cima.
 
-## A tener en cuenta
+## Coisas para considerar
 
-Este reto será evaluado sobre lo siguiente:
+O que será levado em conta nesse desafio?
 
-* Pixel perfect (replicar el diseño con exactitud)
-* Estructura de carpetas y archivos
-* Nombramiento de clases, id, etc
-* Indentación
-* Archivo `README.md` actualizado y correctamente redactado
-* Uso de comentarios para hacer tu código más legible
+* Pixel perfect
+* Estrutura de pastas e arquivos
+* nome das classes e ids
+* Indentação
+* `README.md` actualizado
