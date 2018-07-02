@@ -294,6 +294,16 @@ input {
   justify-content: space-around;
 }
 
+.footer-menu .menu-option:hover {
+  color:white;
+  text-decoration: underline;
+}
+
+.footer-menu a:hover {
+  color: #FF00BF;
+  cursor: pointer;
+}
+
 .menu-first {
   display: flex;
   flex-flow: column;
@@ -362,18 +372,7 @@ input {
   padding: 5px;
 }
 
-.icon {
-  display: inline-block;
-  font-size: 30px;
-  border: none;
-  padding: 5px;
-}
-
 .icons:hover {
-  cursor: pointer;
-}
-
-.icon:hover {
   cursor: pointer;
 }
 
